@@ -1,0 +1,1373 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+header{
+    width: 100%;
+    height: 130px;
+    position: relative;
+}
+header .line1{
+    height: 45px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(238, 255, 255);
+    position: relative;
+    z-index: 1;
+}
+header .line1 .icon{
+    position: relative;
+    right: 400px;
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .line1 .icon a{
+    position: relative;
+    color: rgb(183, 183, 183);
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 14px;
+}
+header .line1 .icon a:hover{
+    color: rgb(2, 192, 255);
+    transition: all ease 0.3s;
+}
+header .line1 .email{
+    display: flex;
+    height: 100%;
+    width: auto;
+    position: relative;
+    left: 360px;
+   align-items: center;
+   justify-content: center;
+}
+header .line1 .email a i{
+   margin-right: 10px;
+   font-size: 12px;
+    color:rgb(2, 192, 255) ;
+}
+header .line1 .email .em{
+    text-decoration: none;
+    color: rgb(148, 148, 148);
+    font-size: 14px;
+}
+header .line1 .phone{
+    height: 100%;
+    width: auto;
+    position: relative;
+    left: 400px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+header .line1 .phone a i{
+    margin-right: 10px;
+    font-size: 12px;
+    color:rgb(2, 192, 255) ;
+}
+header .line1 .phone .phn{
+    text-decoration: none;
+    color: rgb(147, 147, 147);
+    font-size: 14px;
+}
+header .line2{
+    height: 85px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 20px rgb(214, 214, 214);
+}
+header .line2 .logo{
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    right: 145px;
+}
+header .line2 .nav{
+    position: relative;
+    display:flex;
+    height: 100%;
+    width: auto;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+header .line2 .nav ul li{
+    list-style: none;
+    float: left;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+header .line2 .nav ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    color: rgb(132, 132, 132);
+    letter-spacing: 0.5px;
+}
+header .line2 .nav ul li a:hover{
+    color: black;
+    transition: all ease 0.2s;
+}
+header .line2 .btn input{
+    position: relative;
+    left: 150px;
+    height: 45px;
+    width: 200px;
+    outline: none;
+    border: 2px solid rgb(34, 159, 255);
+    background-color: rgb(34, 159, 255);
+    border-radius: 4px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header .line2 .btn input:hover{
+    color: rgb(65, 172, 255);
+    background-color: rgb(255, 255, 255);
+    transition: all ease 0.3s;
+}
+
+.section1{
+    height: auto;
+    width: 100%;
+    position:relative ;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.section1 .img{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.section1 .img .imgslide{
+    width: 100%;
+    height:550px;
+    background-image: url(xbanner2.png.pagespeed.ic.B9cM6-Ibkd.webp);
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
+
+.section1 .img .txt{
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin-right: 650px;
+}
+.section1 .img .txt h1{
+    font-size: 70px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    
+}
+.section1 .img .txt h2{
+    font-size: 70px;
+    font-weight: 500;
+    margin: 0;
+    margin-top: -20px;
+}
+.section1 .img .txt p{
+    color: rgb(115, 115, 115);
+    font-weight: 500;
+    margin-top: 0;
+}
+.section1 .img .txt input{
+    height: 60px;
+    width: 250px;
+    background: linear-gradient(90deg, #3292ff 20%,#59baff);
+   outline: none;
+   border: 1px solid #3292ff;
+    margin-top: 50px;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.section1 .img .txt input:hover{
+    background: white;
+    color: #3292ff;
+    transition: all ease 0.3s;
+   
+}
+
+.section2{
+    height: 330px;
+    width: 100%;
+    background-color:#83C4FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+.section2 .vola1{
+    position: relative;
+    height: 100%;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 35px;
+}
+.section2 .vola1 i{
+    font-size: 60px;
+    color: white;
+}
+.section2 .vola1 h3{
+    color: white;
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.section2 .vola1 p{
+    color: white;
+}
+.section2 .vola1 input{
+    height: 45px;
+    width: 170px;
+    margin-top: 20px;
+    outline: none;
+    border: 1px solid white;
+    background-color:#83C4FF ;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+.section2 .vola1 input:hover{
+    background-color: white;
+    color: #83C4FF;
+    transition: all ease 0.2s;
+}
+
+.section2 .vola2{
+    position: relative;
+    top: -15px;
+    height: 100%;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 30px;
+    background-color: #5db2ff;
+}
+.section2 .vola2 i{
+    font-size: 50px;
+    color: white;
+    padding-left: 50px;
+}
+.section2 .vola2 h3{
+    color: white;
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 0;
+    padding-left: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.section2 .vola2 p{
+    color: white;
+    padding-left: 50px;
+}
+.section2 .vola2 input{
+    height: 45px;
+    width: 190px;
+    margin-top: 20px;
+    outline: none;
+    border: 1px solid white;
+    background-color:#5db2ff;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    margin-left: 50px;
+}
+.section2 .vola2 input:hover{
+    background-color: white;
+    color: #83C4FF;
+    transition: all ease 0.2s;
+}
+
+.section2 .vola3{
+    position: relative;
+    height: 100%;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    left: 20px;
+}
+.section2 .vola3 i{
+    font-size: 50px;
+    color: white;
+}
+.section2 .vola3 h3{
+    color: white;
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.section2 .vola3 p{
+    color: white;
+}
+.section2 .vola3 input{
+    height: 45px;
+    width: 200px;
+    margin-top: 20px;
+    outline: none;
+    border: 1px solid white;
+    background-color:#83C4FF;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+.section2 .vola3 input:hover{
+    background-color: white;
+    color: #83C4FF;
+    transition: all ease 0.2s;
+}
+
+.section3{
+    height: 750px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section3 .txt{
+    height: 100%;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section3 .txt h4{
+    font-size: 18px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(51, 51, 51);
+}
+.section3 .txt .hr{
+    height: 2.5px;
+    width: 50px;
+    background-color: #6db1ff;
+    position: absolute;
+    top: 168px;
+}
+
+.section3 .txt h1{
+    font-size: 35px;
+    line-height: 40px;
+    color: rgb(37, 37, 37);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.section3 .txt p{
+    color: rgb(106, 106, 106);
+    margin-top: 0;
+}
+.section3 .txt ul{
+    padding-left: 15px;
+}
+.section3 .txt ul li{
+    list-style: circle;
+    color:rgb(106, 106, 106) ;
+}
+.section3 .txt input{
+    height: 40px;
+    width: 120px;
+    color:#5db2ff ;
+    font-size: 14px;
+    letter-spacing: 1px;
+    outline: none;
+    border: 1px solid #5db2ff ;
+    background-color: white;
+    border-radius: 7px;
+    margin-top: 30px;
+}
+.section3 .txt input:hover{
+    background-color:#5db2ff ;
+    color: white;
+    transition: all ease 0.2s;
+}
+
+.section3 .img{
+    height: 100%;
+    width: 650px;
+    position: relative;
+    right:70px;
+}
+.section3 .img .im1{
+    height: 400px;
+    position: absolute;
+    top: 150px;
+    left: 60px;
+}
+.section3 .img .im2{
+    height: 400px;
+    position: absolute;
+    top: 230px;
+    left: 280px;
+}
+
+.section4{
+    height: 1340px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(243, 249, 255);
+}
+.section4 .txt1{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    margin-top: 70px;
+    
+}
+.section4 .txt1 h1{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.section4 .txt1 p{
+    font-size: 14px;
+    color:rgb(122, 122, 122) ;
+}
+.section4 .txt1 .hr{
+    height: 3px;
+    width: 80px;
+    position: relative;
+    background-color: #79b7ff;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom:10px ;
+}
+.section4 .sec{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 310px;
+    width: 100%;
+    height: 930px;
+}
+.section4 .sec .sec1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width:100%;
+    height: 50%;
+}
+.section4 .sec .sec1 .pic .txt{
+    height: 190px;
+    width:350px ;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px 0px 8px 8px;
+    margin: 15px;
+    margin-top: -8px;
+    box-shadow: 0px 0px 20px rgb(222, 239, 255);
+}
+.section4 .sec .sec1 .pic .txt .big{
+    padding-left: 30px;
+    color: rgb(35, 35, 35);
+    margin-bottom: 0;
+    margin-top: 30px;
+    font-weight: 550;
+    font-size:20px;
+    text-decoration: none;
+    margin-right: auto;
+}
+.section4 .sec .sec1 .pic .txt .big:hover{
+    color: #5ea9ff;
+    transition: all ease 0.2s;
+}
+.section4 .sec .sec2 .pic .txt .big:hover{
+    color: #5ea9ff;
+    transition: all ease 0.2s;
+}
+.section4 .sec .sec1 .pic .txt p{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 14px;
+    color: rgb(123, 123, 123);
+}
+.section4 .sec .sec1 .pic .txt .small{
+    padding-left: 30px;
+    text-decoration: none;
+    color: #5db2ff;
+    margin-right: auto;
+}
+.section4 .sec .sec1 .pic .txt .small:hover{
+    text-decoration: underline;
+}
+.section4 .sec .sec2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+}
+.section4 .sec .sec2 .pic .txt{
+    height: 190px;
+    width:350px ;
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px 0px 8px 8px;
+    margin: 15px;
+    margin-top: -8px;
+    box-shadow: 0px 0px 20px rgb(222, 239, 255);
+}
+.section4 .sec .sec2 .pic .txt .big{
+    padding-left: 30px;
+    color: rgb(35, 35, 35);
+    margin-bottom: 0;
+    margin-top: 30px;
+    font-weight: 550;
+    font-size:20px;
+    text-decoration: none;
+    margin-right: auto;
+}
+.section4 .sec .sec2 .pic .txt p{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 14px;
+    color: rgb(123, 123, 123);
+}
+.section4 .sec .sec2 .pic .txt .small{
+    padding-left: 30px;
+    text-decoration: none;
+    color: #5db2ff;
+    margin-right: auto;
+}
+.section4 .sec .sec2 .pic .txt .small:hover{
+    text-decoration: underline;
+}
+.parent{
+    width:350px ;
+    margin: 15px;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-bottom: 0;
+    border-radius: 8px 8px 0px 0px;
+    z-index: 1;
+}
+
+.child{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.bg-one{
+    background-image: url(x1.png.pagespeed.ic.x3qDs-wH_Z.png);
+}
+.bg-two{
+    background-image: url(x2.png.pagespeed.ic.uaL3VgmWbh.webp);
+}
+.bg-three{
+    background-image: url(x3.png.pagespeed.ic.zpAN733a8c.png);
+}
+.bg-four{
+    background-image: url(x4.png.pagespeed.ic.28IHJtAY2d.webp);
+}
+.bg-five{
+    background-image: url(x5.png.pagespeed.ic.AJvtqHVhNN.png);
+}
+.bg-six{
+    background-image: url(x6.png.pagespeed.ic.H_Jz9l-DBS.png);
+}
+
+.pic:hover .child{
+    transform: scale(1.2);
+}
+
+.section5{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+}
+.section5 .text{
+    height: 230px;
+    width: 550px;
+    position: relative;
+    top: 30px;
+}
+.section5 .text .icon2{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    display: flex;
+    background-color: #5db2ff;
+    align-items: center;
+    justify-content: center;
+}
+.section5 .text .icon2 i{
+    font-size: 30px;
+    color: white;
+}
+.section5 .text h1{
+    font-size: 20px;
+    color: #222222;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.section5 .text p{
+    font-size: 14px;
+    color: rgb(121, 121, 121);
+}
+.section5 .image{
+    height:auto;
+    width:auto;
+    position: relative;
+    left: 2px;
+}
+.section5 .image img{
+    border-radius: 6px;
+}
+
+.parent1{
+    width:250px;
+    margin: 19px;
+    height: 230px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-bottom: 0;
+    border-radius: 8px 8px 0px 0px;
+    z-index: 1;
+}
+
+.childn{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.bg-on{
+    background-image: url(x4.png.pagespeed.ic.qkGIuOxLyX.png);
+}
+.bg-tw{
+    background-image: url(x1.png.pagespeed.ic.2EznENOFkd.webp);
+}
+.bg-th{
+    background-image: url(x2.png.pagespeed.ic.IG-jB4LJxU.webp);
+}
+.bg-fo{
+    background-image: url(x3.png.pagespeed.ic.ShbXP_lpvJ.webp);
+}
+
+.pic1:hover .childn{
+    transform: scale(1.05);
+}
+
+.section6{
+    height:600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 120px;
+}
+.section6 .hed{
+   position: relative;
+   right: 410px;
+   top: 50px;
+   font-size: 40px;
+   font-weight: 550;
+}
+
+.section6 .sec5{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100%;
+}
+.section6 .sec5 .pic1 .txt5{
+    height: 85px;
+    width:250px ;
+    background-color: rgb(234, 246, 255);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px 0px 8px 8px;
+    margin: 19px;
+    margin-top: -8px;
+}
+.section6 .sec5 .pic1 .txt5 h1{
+    color: rgb(35, 35, 35);
+    margin-bottom: 0;
+    margin-top: 20px;
+    font-weight: 550;
+    font-size:20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.section6 .sec5 .pic1 .txt5 p{
+    font-size: 14px;
+    color: rgb(123, 123, 123);
+    text-align: center;
+    margin-top: 0;
+}
+.section6 .sec5 .pic1:hover .txt5{
+    background-color: #5db2ff;
+    transition: all ease 0.2s;
+}
+.section6 .sec5 .pic1:hover .txt5 h1{
+    color: #ffffff;
+    transition: all ease 0.2s;
+}
+.section6 .sec5 .pic1:hover .txt5 p{
+    color: #ffffff;
+    transition: all ease 0.2s;
+}
+
+
+
+.section7{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+}
+.ima1st{
+    height:auto;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.ima2nd{
+    height:auto;
+    width:100%;
+    position: relative;
+}
+
+
+.image1st{
+    height: 250px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 130% ;
+    position: relative;
+    background-image: url(xemergency-1.png.pagespeed.ic.dzkR_tLkpJ.webp);
+    
+}
+.image2nd{
+    height: 250px;
+    width: 100%;
+    background-size:100%;
+    background-repeat: no-repeat;
+    position: relative;
+    right: 200px;
+    padding-right:200px;
+    z-index: 0;
+    background-image: url(xemergency-2.png.pagespeed.ic.Db7myp6yIE.webp);
+}
+.color1{
+    height: 250px;
+    width:100%;
+    background-color: #3fafff;
+    opacity: 0.7;
+}
+.color2{
+    height: 250px;
+    width:100%;
+    background-color: #3fafff;
+    opacity: 0.7;
+    padding-right: 200px;
+    
+}
+.txtop1{
+    position: absolute;
+    top: 90px;
+    left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.txtop1 span h1{
+    margin: 0;
+    font-size: 25px;
+    font-weight: 550;
+    color: white;
+}
+.txtop1 span p{
+    margin-top: 8px;
+    font-size: 12px;
+    font-weight: 550;
+    color: white;
+}
+.txtop1 input{
+    margin-left: 40px;
+    height: 45px;
+    width: 180px;
+    background-color:transparent;
+    border:1.5px solid white;
+    outline: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+} 
+.txtop1 input:hover{
+    color: #3fafff;
+    background-color: white;
+    transition: all ease 0.2s;
+}
+.txtop2{
+    position: absolute;
+    top: 90px;
+    left: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.txtop2 span h1{
+    margin: 0;
+    font-size: 25px;
+    font-weight: 550;
+    color: white;
+}
+.txtop2 span p{
+    margin-top: 8px;
+    font-size: 12px;
+    font-weight: 550;
+    color: white;
+}
+.txtop2 input{
+    margin-left: 40px;
+    height: 45px;
+    width: 220px;
+    background-color: transparent;
+    border:1.5px solid white;
+    outline: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+} 
+.txtop2 input:hover{
+    color: #3fafff;
+    background-color: white;
+    transition: all ease 0.2s;
+}
+
+
+/*mobile view*/
+@media (max-width:768px){
+    header{
+        width: 100%;
+        height: 80px;
+    }
+    header .line1{
+        height: 30px;
+        width: 100%;
+    }
+    header .line1 .icon{
+        right: 90px;
+    }
+    header .line1 .icon a{
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 8px;
+    }
+    header .line1 .email{
+        left: 80px;
+    }
+    header .line1 .email a i{
+        margin-right: 3px;
+        margin-bottom: 12px;
+        font-size: 5px;
+     }
+     header .line1 .email .em{
+        font-size: 7px;
+    }
+    header .line1 .phone{
+        left: 90px;
+    }header .line1 .phone a i{
+        margin-right: 3px;
+        font-size: 5px;
+        margin-bottom: 12px;
+    }
+    header .line1 .phone .phn{
+        font-size: 7px;
+    }
+    header .line2{
+        height: 50px;
+    }
+    header .line2 .logo{
+      right:90px;
+    }
+    header .line2 .logo img{
+        height: 20px;
+    }
+    header .line2 .nav{
+        display: none;
+    }
+    header .line2 .btn input{
+        left:90px;
+        height: 20px;
+        width: 90px;
+        border-radius: 2px;
+        font-weight: 500;
+        font-size: 7px;
+        border: 1px solid rgb(34, 159, 255);
+    }
+
+    
+    .section1 .img .txt{
+        height:100%;
+        width: 340px;
+        position: absolute;
+        margin-right: 0px;
+        top: 50px;
+        padding-left: 10px;
+    }
+    .section1 .img .txt h1{
+        font-size: 50px;
+        color: rgb(33, 33, 33);
+    }
+    .section1 .img .txt h2{
+        font-size: 45px;
+        font-weight: 300;
+        margin-top:-15px;
+    }
+    .section1 .img .txt p{
+        font-size: 8px;
+        font-weight: 500;
+        margin-top: 0;
+    }
+    .section1 .img .txt input{
+        height: 30px;
+        width: 130px;
+        margin-top: 50px;
+        border-radius: 4px;
+        font-weight: 500;
+        font-size: 10px;
+        letter-spacing: 0px;
+    }
+    .section1 .img .txt input:hover{
+        background: white;
+        color: #3292ff;
+        transition: all ease 0.3s;
+       
+    }
+    .section1 .img .imgslide{
+        height: 330px;
+        background-image: url(x3.png.pagespeed.ic.ShbXP_lpvJ.webp);
+        background-size: 450px;
+        right: 0;
+        opacity: 0.5;
+    }
+    .section2{
+        width: 100%;
+        height: 1050px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 0px;
+    }
+    .section2 .vola1{
+        width: 100%;
+        height: 350px;
+        padding-left:0px;
+    }
+    .section2 .vola2{
+        top: 0px;
+        width: 100%;
+        height: 350px;
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .section2 .vola3{
+        width: 100%;
+        height: 350px;
+        padding-left:0px;
+        left: 0px;
+    }
+    .section2 .vola1 i{
+        padding-left: 25px;
+        padding-right: 20px;
+    }
+    .section2 .vola1 h3{
+        margin-top: 10px;
+        padding-left: 25px;
+        padding-right: 20px;
+    }
+    .section2 .vola1 p{
+        margin-top: 10px;
+        padding-left: 25px;
+        padding-right: 20px;
+        font-size: 13px;
+    }
+    .section2 .vola1 input{
+        height: 35px;
+        width: 140px;
+        margin-top: 30px;
+        font-size: 12px;
+        margin-left: 25px;
+    }
+    .section2 .vola2 i{
+        padding-left: 25px;
+        padding-right: 20px;
+    }
+    .section2 .vola2 h3{
+        margin-top: 10px;
+        padding-left: 25px;
+        padding-right: 20px;
+    }
+    .section2 .vola2 p{
+        margin-top: 10px;
+        padding-left: 25px;
+        padding-right: 20px;
+        font-size: 13px;
+    }
+    .section2 .vola2 input{
+        height: 35px;
+        width: 150px;
+        margin-top: 30px;
+        font-size: 12px;
+        margin-left: 25px;
+    }
+    .section2 .vola3 i{
+        padding-left: 25px;
+        padding-right: 20px;
+    }
+    .section2 .vola3 h3{
+        margin-top: 10px;
+        padding-left: 25px;
+        padding-right: 20px;
+    }
+    .section2 .vola3 p{
+        margin-top: 10px;
+        padding-left: 25px;
+        padding-right: 20px;
+        font-size: 13px;
+    }
+    .section2 .vola3 input{
+        height: 35px;
+        width: 160px;
+        margin-top: 30px;
+        font-size: 12px;
+        margin-left: 25px;
+    }
+
+
+
+    .section3{
+        height:1100px;
+        width: 100%;
+       flex-direction: column;
+       top: 70px;
+    }
+    .section3 .txt{
+        height: 600px;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section3 .txt h4{
+        font-size: 15px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .section3 .txt .hr{
+        height: 2.5px;
+        width: 50px;
+        background-color: #6db1ff;
+        position: relative;
+        top: -35px;
+        left: 0px;
+
+    }
+    
+    .section3 .txt h1{
+        font-size: 30px;
+        line-height: 30px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .section3 .txt p{
+        font-size: 13px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .section3 .txt ul{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .section3 .txt ul li{
+        list-style: circle;
+        color:rgb(106, 106, 106) ;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .section3 .txt input{
+        height: 40px;
+        width: 120px;
+        color:#5db2ff ;
+        font-size: 14px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .section3 .img{
+        width: 80%;
+        height:auto;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        right:0px;
+    }
+    .section3 .img .im1{
+        position: relative;
+        height:100%;
+        width: 100%;
+        top:0px;
+        left:0px;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+    .section3 .img .im2{
+       display: none;
+    }
+
+
+    .section4{
+        height: 2800px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(243, 249, 255);
+    }
+    .section4 .sec .sec1{
+       flex-direction: column;
+       align-items: center;
+       
+    }
+    .section4 .sec .sec2{
+        flex-direction: column;
+        align-items: center;
+     }
+     .section4 .sec{
+        top: 310px;
+        height: 2390px;
+    }
+    .parent{
+        width:300px ;
+        height: 200px;
+    }
+    .section4 .sec .sec1 .pic .txt{
+        height: 170px;
+        width:300px ;
+    }
+    .section4 .sec .sec2 .pic .txt{
+        height: 170px;
+        width:300px ;
+    }
+    .section4 .sec .sec2 .pic .txt .big{
+        font-size:20px;
+    }
+    .section4 .sec .sec2 .pic .txt p{
+        font-size: 12px;
+    }
+    .section4 .sec .sec2 .pic .txt .small{
+        font-size: 14px;
+    }
+    .section4 .sec .sec1 .pic .txt .small{
+        font-size: 14px;
+    }
+    .section4 .sec .sec1 .pic .txt .big{
+        font-size:20px;
+    }
+    .section4 .sec .sec1 .pic .txt p{
+        font-size: 12px;
+    }
+    .section4 .txt1 h1{
+        font-size: 25px;
+    }
+    .section4 .txt1 p{
+        font-size: 12px;
+    }
+    .section4 .txt1 .hr{
+        height: 2px;
+    }
+
+    .section5{
+        height: auto;
+        flex-direction: column;
+        top: 40px;
+    }
+    .section5 .text{
+        height: 300px;
+        width: 80%;
+        padding-bottom: 50px;
+    }
+    
+    .section5 .image{
+        height:auto;
+        width:80%;
+        position: relative;
+        left: 0px;
+    }
+    .section5 .image img{
+       height: 100%;
+       width: 100%;
+    }
+    .section6{
+        height:1600px;
+    }
+    .section6 .sec5{
+        flex-direction: column;
+    }
+    .section6 .hed{
+        right:0px;
+        top: 40px;
+        font-size: 25px;
+     }
+
+     .section7{
+        height: 250px;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        top: 200px;
+    }
+    
+    .image1st{
+        height: 125px;
+        background-size: 120% ;
+        right: 50px;
+        padding-right: 50px;
+    }
+    .image2nd{
+        height:125px;
+        background-size:110%;
+        right: 50px;
+        padding-right:50px;
+    }
+    .color1{
+        height: auto;
+        padding-right: 50px;
+    }
+    .color2{
+        height: auto;
+        padding-right: 70px;
+    }
+
+    .txtop1{
+        top: 25px;
+        left: 80px;
+    }
+    .txtop1 span h1{
+        margin: 0;
+        font-size: 15px;
+        font-weight: 550;
+        color: white;
+    }
+    .txtop1 span p{
+        margin-top: 8px;
+        font-size: 8px;
+        font-weight: 550;
+        color: white;
+    }
+    .txtop1 input{
+        margin-left: 25px;
+        margin-right: 25px;
+        height: 25px;
+        width: 100px;
+        background-color:transparent;
+        border:1.5px solid white;
+        outline: none;
+        border-radius: 30px;
+        color: white;
+        font-size: 10px;
+    } 
+    .txtop1 input:hover{
+        color: #3fafff;
+        background-color: white;
+        transition: all ease 0.2s;
+    }
+    .txtop2{
+        top: 25px;
+        left: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .txtop2 span h1{
+        margin: 0;
+        font-size: 15px;
+        font-weight: 550;
+        color: white;
+    }
+    .txtop2 span p{
+        margin-top: 8px;
+        font-size: 8px;
+        font-weight: 550;
+        color: white;
+    }
+    .txtop2 input{
+        margin-left: 40px;
+        height: 25px;
+        width: 130px;
+        background-color: transparent;
+        border:1.5px solid white;
+        outline: none;
+        margin-right: 25px;
+        border-radius: 30px;
+        color: white;
+        font-size: 10px;
+    } 
+    .txtop2 input:hover{
+        color: #3fafff;
+        background-color: white;
+        transition: all ease 0.2s;
+    }
+}
