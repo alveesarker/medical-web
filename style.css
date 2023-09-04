@@ -1292,15 +1292,16 @@ header .line2 .btn input:hover{
         right: 50px;
         padding-right:50px;
     }
-    .color1{
-        height: auto;
+  .color1{
+        height:100%;
+        width:100%;
         padding-right: 50px;
     }
     .color2{
-        height: auto;
+        height:100%;
+        width:95%;
         padding-right: 70px;
     }
-
     .txtop1{
         top: 25px;
         left: 80px;
