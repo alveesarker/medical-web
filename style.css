@@ -894,6 +894,157 @@ header .line2 .btn input:hover{
     background-color: white;
     transition: all ease 0.2s;
 }
+footer{
+    height: 620px;
+    width: 100%;
+    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 200px;
+}
+
+footer .up{
+    height:520px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    background-color: #1f1f1f;
+    align-items: center;
+    justify-content: space-evenly;
+}
+footer .up .t1{
+    height: 100%;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    bottom: 30px;
+    left: 150px;
+}
+footer .up .t1 img{
+    width: 160px;
+}
+footer .up .t1 p{
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(163, 163, 163);
+    position: relative;
+    top: 30px;
+}
+footer .up .t1 ul{
+    padding-left: 0;
+    position: relative;
+    top: 40px;
+}
+footer .up .t1 ul li{
+    list-style: none;
+    float: left;
+}
+footer .up .t1 ul li .ico{
+    height: 50px;
+    width: 50px;
+    background-color: #707070;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:10px ;
+    margin-right: 10px;
+}
+footer .up .t1 ul li .ico a{
+    color: #bababa;
+}
+footer .up .t1 ul li .ico:hover i{
+    color: white;
+    transition: all ease 0.2s;
+}
+
+footer .up .t2{
+    height: 100%;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 80px;
+}
+footer .up .t2 h3{
+    font-size: 22px;
+    color: #e8e8e8;
+    font-weight: 510;
+    letter-spacing: 0.5px;
+}
+footer .up .t2 a{
+    text-decoration: none;
+    color:#e8e8e8 ;
+    font-size: 16px;
+    padding-top: 20px;
+}
+footer .up .t2 a:hover{
+    color: #3fafff;
+    transition: all ease 0.2s;
+}
+
+footer .up .t3{
+    height: 100%;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    right: 35px;
+}
+footer .up .t3 h3{
+    font-size: 22px;
+    color: #e8e8e8;
+    letter-spacing: 0.5px;
+    font-weight: 510;
+}
+footer .up .t3 a{
+    text-decoration: none;
+    color:#e8e8e8 ;
+    font-size: 16px;
+    padding-top: 20px;
+}
+footer .up .t3 a:hover{
+    color: #3fafff;
+    transition: all ease 0.2s;
+}
+footer .up .t4{
+    height: 100%;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    bottom:47px ;
+    right: 150px;
+}
+footer .up .t4 h3{
+    font-size: 22px;
+    color: #e8e8e8;
+    font-weight: 520;
+    letter-spacing: 0.5px;
+}
+footer .up .t4 p{
+    color:#e8e8e8 ;
+    font-size: 16px;
+}
+footer .down{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+footer .down p{
+    color: white;
+}
+footer .down p a{
+    text-decoration: none;
+}
 
 
 /*mobile view*/
@@ -1370,5 +1521,103 @@ header .line2 .btn input:hover{
         color: #3fafff;
         background-color: white;
         transition: all ease 0.2s;
+    }
+    footer{
+        height: 1300px;
+        top: 200px;
+    }
+    
+    footer .up{
+        height:1150px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    footer .up .t1{
+        height: 300px;
+        width: 100%;
+        display: flex;
+        bottom: 0px;
+        left: 0px;
+    }
+    footer .up .t1 img{
+        width: 160px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    footer .up .t1 p{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    footer .up .t1 ul{
+        padding-left: 0;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    footer .up .t2{
+        height: 350px;
+        width: 100%;
+        display: flex;
+        left:0px;
+    }
+    footer .up .t2 h3{
+        padding-left: 30px;
+        padding-right: 30px;
+        margin: 0;
+    }
+    footer .up .t2 a{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    footer .up .t2 a:hover{
+        color: #3fafff;
+        transition: all ease 0.2s;
+    }
+    
+    footer .up .t3{
+        height: 350px;
+        width: 100%;
+        right: 0px;
+    }
+    footer .up .t3 h3{
+        padding-left: 30px;
+        padding-right: 30px;
+        margin: 0;
+    }
+    footer .up .t3 a{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    footer .up .t3 a:hover{
+        color: #3fafff;
+        transition: all ease 0.2s;
+    }
+    footer .up .t4{
+        height:200px;
+        width: 100%;
+        bottom:0px ;
+        right: 0px;
+    }
+    footer .up .t4 h3{
+        padding-left: 30px;
+        padding-right: 30px;
+        margin: 0;
+    }
+    footer .up .t4 p{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    footer .down{
+        height: 150px;
+    }
+    footer .down p{
+        color: white;
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    footer .down p a{
+        text-decoration: none;
     }
 }
